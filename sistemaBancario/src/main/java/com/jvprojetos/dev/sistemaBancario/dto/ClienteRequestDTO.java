@@ -15,7 +15,7 @@ public record ClienteRequestDTO(
         String email,
 
         @NotBlank(message = "O documento (CPF/CNPJ) é obrigatório")
-        String documento, // <--- Faltava este campo aqui!
+        String documento,
 
         String telefone,
 
